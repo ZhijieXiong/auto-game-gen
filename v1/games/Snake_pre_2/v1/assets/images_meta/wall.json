@@ -1,5 +1,0 @@
-{
-  "description": "Wall boundary sprite, solid dark gray or brown color (#444444) with subtle texture or brick pattern, pixel art style with sturdy appearance, 20x20 pixels square to match grid system, forms the perimeter boundaries of the game area, collision object that ends game when snake touches it, designed to clearly define playable area with strong visual contrast",
-  "width": 20,
-  "height": 20
-}

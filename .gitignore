@@ -8,4 +8,5 @@ __pycache__/
 *.pyzw
 *.pyzwz
 
+v1/games/*_pre_*/
 v2/

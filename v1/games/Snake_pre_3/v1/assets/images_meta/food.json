@@ -1,5 +1,0 @@
-{
-  "description": "Food sprite representing collectible apple item. Bright red colored (#ff0000) circular apple with pixel art style. Features a small green leaf on top and slight shading to give 3D appearance within pixel art constraints. Size fits perfectly within 32x32 pixel grid spacing. Spawns randomly on empty grid spaces for the snake to consume. High contrast against dark background for easy visibility. Retro arcade aesthetic matching the overall game style. Represents the primary collectible that increases snake length and player score.",
-  "width": 32,
-  "height": 32
-}
