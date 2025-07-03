@@ -1,0 +1,5 @@
+{
+  "description": "Bright green snake head sprite facing right direction in pixel art style. The head shows eyes positioned on the right side, mouth/nose pointing rightward, with curved shape indicating rightward movement. Designed with vibrant green color (#00FF00) to contrast clearly against the dark game background. Size matches the 32x32 pixel grid system. Represents the player-controlled snake's head when moving right.",
+  "width": 32,
+  "height": 32
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Snake head sprite facing rightward direction. Bright green colored head with pixel art style. Features two small black eyes positioned on the right side looking rightward, rounded head shape with slight curve indicating rightward orientation. The mouth/nose area is positioned on the left side of the sprite. Size matches game grid of 32x32 pixels. Represents the leading segment of the player-controlled snake when moving right. Visual style is retro arcade with clean pixel art aesthetics and bright vibrant green color (#00ff41) that contrasts well against dark backgrounds.",
+  "width": 32,
+  "height": 32
+}

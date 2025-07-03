@@ -1,0 +1,60 @@
+{
+  "game_name": "Galaga-Style Space Shooter",
+  "game_description": "A classic vertical scrolling space shooter where the player controls a fighter ship at the bottom of the screen, shooting at waves of alien enemies that move in formation patterns. Enemies can capture the player's ship, requiring rescue missions.",
+  "core_mechanics": [
+    "Move fighter ship horizontally along bottom of screen",
+    "Shoot projectiles upward at enemy formations",
+    "Dodge enemy projectiles and dive attacks",
+    "Rescue captured ships for double firepower",
+    "Destroy enemy formations for points",
+    "Progress through increasingly difficult waves"
+  ],
+  "controls": [
+    "Arrow keys or A/D keys for horizontal movement",
+    "Spacebar for shooting",
+    "P key for pause"
+  ],
+  "visual_style": "Pixel art with bright colors on dark space background, reminiscent of 1980s arcade games",
+  "key_characters": [
+    "Player fighter ship (small, agile spacecraft)",
+    "Galaga bee enemies (yellow/blue, can capture player)",
+    "Red alien enemies (aggressive attackers)",
+    "Green alien enemies (basic formation flyers)",
+    "Boss Galaga (larger enemy that leads formations)"
+  ],
+  "ui_elements": [
+    "Score display at top of screen",
+    "Lives counter showing remaining ships",
+    "High score display",
+    "Stage/wave indicator",
+    "Game over screen",
+    "Start screen with instructions"
+  ],
+  "victory_defeat_conditions": [
+    "Victory: Complete all waves/stages or achieve high score",
+    "Defeat: Lose all lives by being hit by enemy fire or collision",
+    "Bonus: Rescue captured ship for double firepower",
+    "Stage clear: Destroy all enemies in current wave"
+  ],
+  "visual_assets": [
+    "Player ship sprite - facing upward, small fighter design",
+    "Player ship captured state - tractor beam effect, different color",
+    "Player projectile - small white/yellow bullet moving upward",
+    "Galaga bee enemy - yellow/blue, idle formation flying state",
+    "Galaga bee enemy - diving attack animation (3-4 frames)",
+    "Galaga bee enemy - capturing beam effect",
+    "Red alien enemy - aggressive design, formation flying state",
+    "Red alien enemy - diving attack animation",
+    "Green alien enemy - basic design, formation flying state",
+    "Boss Galaga - larger enemy sprite, formation leader",
+    "Enemy projectiles - red/orange bullets moving downward",
+    "Explosion animation - 4-5 frames for destroyed enemies/player",
+    "Star field background - scrolling space with small white stars",
+    "Tractor beam effect - capturing player ship visual",
+    "Score popup numbers - +100, +200, +500 point indicators",
+    "UI font sprites - numbers and letters for score/lives display",
+    "Game over text sprite",
+    "Stage clear bonus text sprite",
+    "Formation bonus indicator sprites"
+  ]
+}

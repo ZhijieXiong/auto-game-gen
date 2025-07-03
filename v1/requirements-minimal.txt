@@ -1,0 +1,30 @@
+# GameGen v1 Minimal Requirements
+# Core dependencies only for GameGen functionality
+
+# Core dependencies for GameGen
+pydantic>=2.11.0
+pillow>=11.0.0
+pyyaml>=6.0.0
+
+# AI/LLM related packages (choose one based on your config)
+openai>=1.90.0
+zhipuai>=2.0.0
+langchain>=0.3.0
+langchain-aws>=0.2.0
+langchain-openai>=0.3.0
+
+# AWS services (if using AWS)
+boto3>=1.38.0
+
+# HTTP and networking
+requests>=2.30.0
+httpx>=0.24.0
+
+# Data processing
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
+regex>=2023.0.0 

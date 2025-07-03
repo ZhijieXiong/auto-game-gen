@@ -1,0 +1,5 @@
+{
+  "description": "The same fighter spacecraft as player-ship but with a distinct captured state visual effect. The ship maintains its upward-facing orientation but now has a yellowish-green tractor beam glow surrounding it and slightly altered coloring to indicate it's under alien control. The beam effect creates a translucent aura around the ship edges. Pixel art style consistent with other game assets, designed to clearly show the ship is in a captured/controlled state.",
+  "width": 32,
+  "height": 32
+}

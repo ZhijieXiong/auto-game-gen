@@ -1,0 +1,32 @@
+{
+  "grid-cell": {
+    "description": "A dark square cell representing an empty grid position in the Tetris playing field. Features a dark navy blue background (#0f0f23) with thin light gray border lines (#333333) creating a subtle grid pattern. The cell has clean pixel art styling with sharp edges and minimal visual noise to ensure falling tetrominoes stand out clearly against the background. Size matches the game's 32x32 pixel cell dimensions perfectly. Acts as the foundational visual element that forms the 10x20 Tetris game board, providing clear demarcation between playable spaces while maintaining low visual salience to keep focus on the colorful falling pieces.",
+    "width": 32,
+    "height": 32
+  },
+  "filled-cell": {
+    "description": "A bright colored square cell representing a locked tetromino block in the Tetris grid. Features solid bright colors (cyan, yellow, purple, green, red, blue, or orange) matching the original tetromino that placed it, with a crisp white border stroke for definition. Uses clean pixel art styling with high color saturation to create strong visual contrast against the dark grid background. The filled state clearly indicates occupied grid positions that new falling pieces must stack upon or avoid. Size is 30x30 pixels (slightly smaller than grid cell) to fit within the 32x32 grid with 2-pixel border spacing. Essential for showing the accumulated game state and creating the visual foundation for line-clearing mechanics.",
+    "width": 30,
+    "height": 30
+  },
+  "game-border": {
+    "description": "A decorative frame surrounding the main Tetris playing field with bright cyan (#00ffff) color scheme matching the classic arcade aesthetic. Features clean pixel art styling with a solid rectangular border that's 4 pixels thick, creating clear visual separation between the active game area and the UI elements. The border has subtle corner accents and maintains consistent line weight throughout. Designed to contain the 10x20 grid (320x640 pixels) plus padding, totaling approximately 340x660 pixels. Uses bright cyan color to complement the neon-inspired visual theme while providing clear spatial boundaries for the gameplay area. Acts as both a functional game boundary and aesthetic element that reinforces the retro gaming atmosphere.",
+    "width": 340,
+    "height": 660
+  },
+  "next-preview-box": {
+    "description": "A small bordered rectangular container for displaying the upcoming tetromino piece in the game's UI area. Features a dark background (#1a1a2e) with bright white or cyan border lines creating a clean preview window. The box uses pixel art styling with sharp edges and minimal visual decoration to keep focus on the next piece preview. Sized at 120x120 pixels to accommodate all tetromino shapes with adequate spacing around them. Positioned in the right UI panel alongside score and level displays. The container background is darker than the main game area to provide good contrast for the colorful preview tetrominoes. Essential UI element that helps players plan their next moves strategically.",
+    "width": 120,
+    "height": 120
+  },
+  "game-over-overlay": {
+    "description": "A semi-transparent dark overlay covering the entire game screen when the game ends, featuring a dark navy blue background (#0f0f23) with 80% opacity to dim the background game field while keeping it partially visible. The overlay uses pixel art styling with clean edges and serves as a backdrop for game over text and final score display. Covers the full game canvas at 800x600 pixels, creating a modal-like effect that draws attention to the end game state. The semi-transparent nature allows players to still see their final board configuration while clearly indicating the game has ended. Provides visual separation between active gameplay and end state, with darker tones that make overlaid white and red text highly readable.",
+    "width": 800,
+    "height": 600
+  },
+  "pause-overlay": {
+    "description": "A semi-transparent dark overlay that appears when the game is paused, featuring the same dark navy blue background (#0f0f23) as the game over screen but with slightly higher opacity (80%) to clearly indicate the paused state. Uses pixel art styling with clean edges and covers the full 800x600 pixel game canvas. The overlay dims the active game field while keeping tetromino positions visible underneath, allowing players to study the board during pause. Serves as a backdrop for pause text and resume instructions, with the dark background ensuring high contrast and readability for overlaid white text. Creates a clear visual distinction between active gameplay and paused state while maintaining the game's cohesive dark color scheme.",
+    "width": 800,
+    "height": 600
+  }
+}

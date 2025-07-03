@@ -1,0 +1,5 @@
+{
+  "description": "Snake tail segment facing rightward direction. Green colored with tapered end pointing rightward, representing the last segment of the snake when the tail is moving right. Pixel art style with the wide base on the left side and gradually narrowing to a point on the right. Color matches snake body segments (#00cc33) but with distinctive tapered shape. Size fits 32x32 pixel grid. Visual orientation clearly shows rightward direction through the pointed end positioning and body curve.",
+  "width": 32,
+  "height": 32
+}

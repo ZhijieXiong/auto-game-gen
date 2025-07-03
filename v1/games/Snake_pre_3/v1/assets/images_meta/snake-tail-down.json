@@ -1,0 +1,5 @@
+{
+  "description": "Snake tail segment facing downward direction. Green colored with tapered end pointing downward, representing the last segment of the snake when the tail is moving down. Pixel art style with the wide base at the top and gradually narrowing to a point at the bottom. Color matches snake body segments (#00cc33) but with distinctive tapered shape. Size fits 32x32 pixel grid. Visual orientation clearly shows downward direction through the pointed end positioning and body curve.",
+  "width": 32,
+  "height": 32
+}

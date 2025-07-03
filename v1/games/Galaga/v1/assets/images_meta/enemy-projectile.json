@@ -1,0 +1,5 @@
+{
+  "description": "A hostile projectile fired by enemy aliens, designed for downward movement toward the player. Appears as a red/orange energy bolt with an elongated oval shape and slight flame-like trail effect. The projectile has a menacing appearance with darker red core and bright orange edges. Clearly distinguishable from player projectiles through color and slightly different shape. Optimized for visibility against the dark space background.",
+  "width": 4,
+  "height": 8
+}

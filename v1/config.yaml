@@ -1,0 +1,55 @@
+# 注释掉的内容不用配置，并不会用到，只是用于提示哪些模型可以用
+llm_platforms:
+  openai:
+    env_key: "OPENAI_API_KEY"
+    # text_gen_models:
+    #   - "gpt-4"
+    #   - "gpt-4-turbo"
+    #   - "gpt-3.5-turbo"
+    # img_gen_models:
+    #   - "gpt-image-1"
+    #   - "dall-e-3"
+    #   - "dall-e-2"
+  deepseek:
+    env_key: "DEEPSEEK_API_TEST_KEY"
+    # text_gen_models:
+    #   - "deepseek-chat"
+    #   - "deepseek-coder"
+    #   - "deepseek-reasoner"
+  zhipuai:
+    env_key: "GLM_API_KEY"
+    # text_gen_models:
+    #   - "glm-4"
+    #   - "glm-4-flash"
+    # img_gen_models:
+    #   - "cogview-4-250304"
+    #   - "cogview-4"
+    #   - "cogview-3-flash"
+  azure:
+    env_key: "AZURE_OPENAI_API_KEY"
+    # text_gen_models:
+    #   - "gpt-35-turbo@@2024-02-01"
+    # img_gen_models:
+    #   - "gpt-image-1@@2025-04-01-preview"
+  niya_aws:
+    env_key: "NIYA_AWS_ACCESS_KEY_ID"
+    # text_gen_models:
+    #   - "anthropic.claude-3-5-sonnet-20240620-v1:0"
+    #   - "us.anthropic.claude-sonnet-4-20250514-v1:0"
+llm_configs:
+  text_model:
+    platform: "niya_aws"
+    model_name: "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    temperature: 0.8
+    max_tokens: 20000
+    top_p: 1
+  image_model:
+    platform: "azure"
+    model_name: "gpt-image-1@@2025-04-01-preview"
+main_config:
+  game_name: "Snake"
+  game_demand: "我想制作一个贪吃蛇游戏"
+  continue_from_existing_game: true
+  num_eahc_image: 2
+  use_remove_background: false
+ 

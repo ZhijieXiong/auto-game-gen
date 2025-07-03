@@ -1,0 +1,5 @@
+{
+  "description": "A basic green alien enemy designed for formation flying, facing downward in idle position. Features a simpler, more rounded design compared to red aliens, with a bright green color scheme and basic wing structures. This is the most numerous enemy type, designed to fill formation ranks. Classic arcade pixel art style with clean lines and good contrast against dark backgrounds. Less aggressive appearance than other enemy types.",
+  "width": 24,
+  "height": 24
+}

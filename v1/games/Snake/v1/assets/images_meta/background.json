@@ -1,0 +1,5 @@
+{
+  "description": "Dark game background with subtle grid pattern in pixel art style. Dark gray/black base color (#222222) with faint grid lines to help visualize the game's tile-based movement system. Covers the full game area of 640x480 pixels. Low visual salience to ensure snake and food objects stand out clearly. Provides the playing field backdrop for the entire game.",
+  "width": 640,
+  "height": 480
+}

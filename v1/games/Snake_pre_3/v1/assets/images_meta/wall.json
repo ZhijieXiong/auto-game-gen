@@ -1,0 +1,5 @@
+{
+  "description": "Wall border sprite forming game boundaries. Solid bright colored block (#00ff41) with pixel art style. Square shaped to fit 32x32 pixel grid system. Forms the perimeter walls that cause game over when snake collides. Bright green color matches snake head for visual consistency while being clearly distinct as an obstacle. Clean rectangular shape with sharp edges. Multiple instances arranged to create complete border around playing field. Retro arcade aesthetic with high contrast against dark background.",
+  "width": 32,
+  "height": 32
+}

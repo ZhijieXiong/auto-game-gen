@@ -1,0 +1,5 @@
+{
+  "description": "A seamless, tileable background representing deep space filled with small white stars of varying brightness scattered across a dark blue-black void. The stars are small pixel dots in different sizes (1-3 pixels) to create depth perception. The background uses very dark tones (deep blue to black gradient) to ensure foreground elements stand out clearly. Designed to scroll vertically to create motion effect while maintaining low visual prominence to not distract from gameplay elements.",
+  "width": 800,
+  "height": 600
+}

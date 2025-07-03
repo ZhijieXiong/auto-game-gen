@@ -1,0 +1,61 @@
+{
+  "game_name": "Tetris Classic",
+  "game_description": "A classic falling block puzzle game where players arrange different shaped blocks (tetrominoes) to form complete horizontal lines, which then disappear to score points.",
+  "core_mechanics": [
+    "Seven different tetromino shapes fall from top of screen",
+    "Player can rotate and move falling pieces left/right",
+    "Pieces stack on bottom and on each other",
+    "Complete horizontal lines disappear and award points",
+    "Game speed increases as level progresses",
+    "Game ends when pieces reach the top"
+  ],
+  "controls": [
+    "Left/Right arrow keys to move piece horizontally",
+    "Up arrow key to rotate piece clockwise",
+    "Down arrow key to soft drop (faster falling)",
+    "Spacebar for hard drop (instant drop)",
+    "P key to pause game"
+  ],
+  "visual_style": "Clean pixel art with bright, distinct colors for each tetromino type, dark background grid",
+  "key_characters": [
+    "I-piece (cyan straight line)",
+    "O-piece (yellow square)",
+    "T-piece (purple T-shape)",
+    "S-piece (green zigzag)",
+    "Z-piece (red zigzag)",
+    "J-piece (blue L-shape)",
+    "L-piece (orange L-shape)"
+  ],
+  "ui_elements": [
+    "Score display",
+    "Level indicator",
+    "Lines cleared counter",
+    "Next piece preview window",
+    "Game over screen",
+    "Pause menu",
+    "Grid background"
+  ],
+  "victory_defeat_conditions": [
+    "Defeat: pieces stack up to the top of the playing field",
+    "Progression: clear lines to increase score and level",
+    "No traditional victory condition - endless gameplay"
+  ],
+  "visual_assets": [
+    "I-piece tetromino - cyan colored straight 4-block piece in horizontal and vertical orientations",
+    "O-piece tetromino - yellow colored 2x2 square block (no rotation needed)",
+    "T-piece tetromino - purple colored T-shaped block in 4 rotation states (up, right, down, left)",
+    "S-piece tetromino - green colored S-shaped block in horizontal and vertical orientations",
+    "Z-piece tetromino - red colored Z-shaped block in horizontal and vertical orientations",
+    "J-piece tetromino - blue colored J-shaped block in 4 rotation states",
+    "L-piece tetromino - orange colored L-shaped block in 4 rotation states",
+    "Empty grid cell - dark background square with thin border lines",
+    "Filled grid cell - colored square matching the tetromino that placed it",
+    "Game border - frame around the playing field",
+    "Next piece preview box - small bordered area showing upcoming tetromino",
+    "Score text display - white/bright text showing current score",
+    "Level text display - white/bright text showing current level",
+    "Lines text display - white/bright text showing lines cleared",
+    "Game over overlay - semi-transparent dark background with game over text",
+    "Pause overlay - semi-transparent background with pause text and menu options"
+  ]
+}

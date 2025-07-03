@@ -1,0 +1,67 @@
+{
+  "player-ship": {
+    "description": "A small, sleek fighter spacecraft facing upward in classic arcade pixel art style. The ship has a triangular body with a bright white/silver color scheme and blue engine glow at the bottom. Features angular wings spread horizontally and a pointed nose cone. The design is reminiscent of 1980s arcade games with clean, geometric lines and high contrast against dark backgrounds. Size fits a 32x32 pixel grid with the ship oriented vertically, nose pointing up for upward movement and shooting.",
+    "width": 32,
+    "height": 32
+  },
+  "player-ship-captured": {
+    "description": "The same fighter spacecraft as player-ship but with a distinct captured state visual effect. The ship maintains its upward-facing orientation but now has a yellowish-green tractor beam glow surrounding it and slightly altered coloring to indicate it's under alien control. The beam effect creates a translucent aura around the ship edges. Pixel art style consistent with other game assets, designed to clearly show the ship is in a captured/controlled state.",
+    "width": 32,
+    "height": 32
+  },
+  "player-projectile": {
+    "description": "A small, bright projectile bullet in pixel art style designed for vertical upward movement. Appears as a thin, elongated white/yellow energy bolt with a slight blue core. The projectile has a streamlined shape optimized for fast upward travel, with a pointed top and slight energy trail effect. High contrast against dark space backgrounds, clearly visible during gameplay. Sized to fit arcade-style shooting mechanics.",
+    "width": 4,
+    "height": 8
+  },
+  "galaga-bee-idle": {
+    "description": "A distinctive yellow and blue alien enemy in the iconic Galaga bee design, facing downward in formation flying position. Features a rounded body with yellow base color, blue wing-like appendages, and characteristic compound eyes. The design maintains classic 1980s arcade pixel art style with bold, contrasting colors. Body is symmetrical with wings spread horizontally, clearly oriented for downward-facing formation flight. Size fits standard enemy grid positioning.",
+    "width": 24,
+    "height": 24
+  },
+  "galaga-bee-diving": {
+    "description": "The same yellow and blue Galaga bee enemy but in an aggressive diving attack pose. The body is angled diagonally downward-left or downward-right to show diving motion, with wings swept back dynamically. Eyes appear more focused/aggressive, and the overall posture conveys rapid downward movement toward the player. Maintains the classic yellow/blue color scheme but with more dynamic positioning than the idle formation state.",
+    "width": 24,
+    "height": 24
+  },
+  "red-alien-idle": {
+    "description": "An aggressive-looking red alien enemy in formation flying position, facing downward. Features a more angular, menacing design compared to the bee enemies, with sharp edges and a predominantly red color scheme with darker red accents. The body has a somewhat insectoid appearance with wing-like protrusions and prominent eyes. Designed in classic arcade pixel art style with high contrast for visibility against dark space backgrounds.",
+    "width": 24,
+    "height": 24
+  },
+  "red-alien-diving": {
+    "description": "The red alien enemy in an aggressive diving attack pose, body angled diagonally downward to show attacking motion. Wings are swept back dynamically and the overall design conveys rapid descent toward the player position. Maintains the red color scheme but with more aggressive, dynamic positioning compared to the idle formation state. Sharp angles emphasize the threatening nature of the diving attack.",
+    "width": 24,
+    "height": 24
+  },
+  "green-alien-idle": {
+    "description": "A basic green alien enemy designed for formation flying, facing downward in idle position. Features a simpler, more rounded design compared to red aliens, with a bright green color scheme and basic wing structures. This is the most numerous enemy type, designed to fill formation ranks. Classic arcade pixel art style with clean lines and good contrast against dark backgrounds. Less aggressive appearance than other enemy types.",
+    "width": 24,
+    "height": 24
+  },
+  "boss-galaga": {
+    "description": "A larger, more imposing version of the Galaga bee enemy serving as a formation leader or boss. Features the classic yellow and blue color scheme but with increased size and more detailed design elements. Additional armor plating, larger wings, and more prominent eyes convey its superior status. Facing downward like other enemies but with more commanding presence. Designed to stand out as a priority target with enhanced visual detail.",
+    "width": 32,
+    "height": 32
+  },
+  "enemy-projectile": {
+    "description": "A hostile projectile fired by enemy aliens, designed for downward movement toward the player. Appears as a red/orange energy bolt with an elongated oval shape and slight flame-like trail effect. The projectile has a menacing appearance with darker red core and bright orange edges. Clearly distinguishable from player projectiles through color and slightly different shape. Optimized for visibility against the dark space background.",
+    "width": 4,
+    "height": 8
+  },
+  "explosion": {
+    "description": "A bright explosion effect sprite showing the destruction of ships or enemies. Features a classic arcade-style burst pattern with yellow/white core and red/orange outer flames. The explosion has a roughly circular shape with jagged, dynamic edges to convey violent destruction. Designed in pixel art style with high contrast and bright colors to be clearly visible during intense gameplay moments. Size appropriate for both player and enemy destruction effects.",
+    "width": 32,
+    "height": 32
+  },
+  "starfield": {
+    "description": "A seamless, tileable background representing deep space filled with small white stars of varying brightness scattered across a dark blue-black void. The stars are small pixel dots in different sizes (1-3 pixels) to create depth perception. The background uses very dark tones (deep blue to black gradient) to ensure foreground elements stand out clearly. Designed to scroll vertically to create motion effect while maintaining low visual prominence to not distract from gameplay elements.",
+    "width": 800,
+    "height": 600
+  },
+  "tractor-beam": {
+    "description": "A translucent yellowish-green energy beam effect used to show alien capture mechanics. The beam appears as a cone or column of light extending downward from Galaga bee enemies toward the player ship. Features a gradient from bright yellow-green at the source to more transparent at the edges, with slight particle or energy wave effects within the beam. Designed to clearly indicate the capture zone while maintaining visual clarity of other game elements underneath.",
+    "width": 48,
+    "height": 96
+  }
+}

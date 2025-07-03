@@ -1,0 +1,5 @@
+{
+  "description": "A dark square cell representing an empty grid position in the Tetris playing field. Features a dark navy blue background (#0f0f23) with thin light gray border lines (#333333) creating a subtle grid pattern. The cell has clean pixel art styling with sharp edges and minimal visual noise to ensure falling tetrominoes stand out clearly against the background. Size matches the game's 32x32 pixel cell dimensions perfectly. Acts as the foundational visual element that forms the 10x20 Tetris game board, providing clear demarcation between playable spaces while maintaining low visual salience to keep focus on the colorful falling pieces.",
+  "width": 32,
+  "height": 32
+}

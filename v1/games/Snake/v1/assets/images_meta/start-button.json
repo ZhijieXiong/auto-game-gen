@@ -1,0 +1,5 @@
+{
+  "description": "Rectangular button sprite with 'RESTART' text in pixel art style. Button has rounded corners with gradient from light to dark gray, white text centered inside. Size is 128x48 pixels to accommodate text clearly. Used for restarting the game after game over screen appears. Designed to be clearly visible against the dark background.",
+  "width": 128,
+  "height": 48
+}

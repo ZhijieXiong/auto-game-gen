@@ -1,0 +1,52 @@
+{
+  "snake-head-up": {
+    "description": "Bright green snake head sprite facing upward direction in pixel art style. The head shows eyes positioned at the top, mouth/nose pointing upward, with slight angular shape indicating upward movement. Designed with vibrant green color (#00FF00) to contrast clearly against the dark game background. Size matches the 32x32 pixel grid system. Represents the player-controlled snake's head when moving up.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-head-down": {
+    "description": "Bright green snake head sprite facing downward direction in pixel art style. The head shows eyes positioned at the bottom, mouth/nose pointing downward, with slight angular shape indicating downward movement. Designed with vibrant green color (#00FF00) to contrast clearly against the dark game background. Size matches the 32x32 pixel grid system. Represents the player-controlled snake's head when moving down.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-head-left": {
+    "description": "Bright green snake head sprite facing left direction in pixel art style. The head shows eyes positioned on the left side, mouth/nose pointing leftward, with curved shape indicating leftward movement. Designed with vibrant green color (#00FF00) to contrast clearly against the dark game background. Size matches the 32x32 pixel grid system. Represents the player-controlled snake's head when moving left.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-head-right": {
+    "description": "Bright green snake head sprite facing right direction in pixel art style. The head shows eyes positioned on the right side, mouth/nose pointing rightward, with curved shape indicating rightward movement. Designed with vibrant green color (#00FF00) to contrast clearly against the dark game background. Size matches the 32x32 pixel grid system. Represents the player-controlled snake's head when moving right.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-body": {
+    "description": "Dark green rectangular snake body segment sprite in pixel art style. Square/rectangular shape with darker green color (#008800) than the head to create visual hierarchy. Smooth edges with slight texture to match the bright green head sprites. Size matches the 32x32 pixel grid system. Represents individual body segments that make up the snake's length as it grows.",
+    "width": 32,
+    "height": 32
+  },
+  "food": {
+    "description": "Bright red apple sprite in pixel art style. Round apple shape with small green leaf on top, using vibrant red color (#FF0000) to stand out against the dark background and green snake. Size matches the 32x32 pixel grid system. Represents collectible food items that spawn randomly on the game grid and make the snake grow when eaten.",
+    "width": 32,
+    "height": 32
+  },
+  "background": {
+    "description": "Dark game background with subtle grid pattern in pixel art style. Dark gray/black base color (#222222) with faint grid lines to help visualize the game's tile-based movement system. Covers the full game area of 640x480 pixels. Low visual salience to ensure snake and food objects stand out clearly. Provides the playing field backdrop for the entire game.",
+    "width": 640,
+    "height": 480
+  },
+  "wall": {
+    "description": "Solid gray wall block sprite in pixel art style. Rectangular border block with medium gray color (#666666) and slight texture/shading to indicate solidity. Size matches the 32x32 pixel grid system. Represents boundary walls that define the game area limits and cause game over when the snake collides with them. Forms the perimeter of the playing field.",
+    "width": 32,
+    "height": 32
+  },
+  "start-button": {
+    "description": "Rectangular button sprite with 'RESTART' text in pixel art style. Button has rounded corners with gradient from light to dark gray, white text centered inside. Size is 128x48 pixels to accommodate text clearly. Used for restarting the game after game over screen appears. Designed to be clearly visible against the dark background.",
+    "width": 128,
+    "height": 48
+  },
+  "pause-icon": {
+    "description": "Simple pause symbol sprite in pixel art style. Two vertical white rectangles side by side representing the universal pause icon. Size is 24x24 pixels for UI display. White color (#FFFFFF) to ensure visibility against dark background. Appears in top-right corner when game is paused to indicate current game state.",
+    "width": 24,
+    "height": 24
+  }
+}

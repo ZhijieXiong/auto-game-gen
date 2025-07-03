@@ -1,0 +1,5 @@
+{
+  "description": "Game background providing the playing field surface. Dark solid color (#000000) with subtle grid pattern overlay to help players visualize movement grid. Covers entire game area of 640x480 pixels. Minimal design that provides strong contrast for bright colored snake and food sprites. The grid lines are very faint dark gray (#111111) to show tile boundaries without being distracting. Retro arcade aesthetic with clean, functional appearance that keeps focus on gameplay elements.",
+  "width": 640,
+  "height": 480
+}

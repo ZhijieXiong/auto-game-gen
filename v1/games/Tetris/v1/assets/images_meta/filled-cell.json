@@ -1,0 +1,5 @@
+{
+  "description": "A bright colored square cell representing a locked tetromino block in the Tetris grid. Features solid bright colors (cyan, yellow, purple, green, red, blue, or orange) matching the original tetromino that placed it, with a crisp white border stroke for definition. Uses clean pixel art styling with high color saturation to create strong visual contrast against the dark grid background. The filled state clearly indicates occupied grid positions that new falling pieces must stack upon or avoid. Size is 30x30 pixels (slightly smaller than grid cell) to fit within the 32x32 grid with 2-pixel border spacing. Essential for showing the accumulated game state and creating the visual foundation for line-clearing mechanics.",
+  "width": 30,
+  "height": 30
+}

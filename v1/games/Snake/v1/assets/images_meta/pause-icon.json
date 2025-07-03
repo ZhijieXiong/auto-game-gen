@@ -1,0 +1,5 @@
+{
+  "description": "Simple pause symbol sprite in pixel art style. Two vertical white rectangles side by side representing the universal pause icon. Size is 24x24 pixels for UI display. White color (#FFFFFF) to ensure visibility against dark background. Appears in top-right corner when game is paused to indicate current game state.",
+  "width": 24,
+  "height": 24
+}

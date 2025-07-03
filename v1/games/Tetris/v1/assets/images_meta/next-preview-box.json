@@ -1,0 +1,5 @@
+{
+  "description": "A small bordered rectangular container for displaying the upcoming tetromino piece in the game's UI area. Features a dark background (#1a1a2e) with bright white or cyan border lines creating a clean preview window. The box uses pixel art styling with sharp edges and minimal visual decoration to keep focus on the next piece preview. Sized at 120x120 pixels to accommodate all tetromino shapes with adequate spacing around them. Positioned in the right UI panel alongside score and level displays. The container background is darker than the main game area to provide good contrast for the colorful preview tetrominoes. Essential UI element that helps players plan their next moves strategically.",
+  "width": 120,
+  "height": 120
+}

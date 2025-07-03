@@ -1,0 +1,5 @@
+{
+  "description": "A translucent yellowish-green energy beam effect used to show alien capture mechanics. The beam appears as a cone or column of light extending downward from Galaga bee enemies toward the player ship. Features a gradient from bright yellow-green at the source to more transparent at the edges, with slight particle or energy wave effects within the beam. Designed to clearly indicate the capture zone while maintaining visual clarity of other game elements underneath.",
+  "width": 48,
+  "height": 96
+}

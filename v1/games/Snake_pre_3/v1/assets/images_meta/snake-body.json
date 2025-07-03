@@ -1,0 +1,5 @@
+{
+  "description": "Snake body segment sprite representing middle sections of the snake. Square-shaped green block with pixel art style, slightly different shade from the head (darker green #00cc33) to provide visual distinction. Solid rectangular shape with clean edges fitting perfectly within 32x32 pixel grid. No directional features as body segments are uniform regardless of movement direction. Used for all middle segments between head and tail. Visual style matches other snake components with retro arcade aesthetics and consistent pixel art rendering.",
+  "width": 32,
+  "height": 32
+}

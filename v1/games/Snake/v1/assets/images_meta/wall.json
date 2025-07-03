@@ -1,0 +1,5 @@
+{
+  "description": "Solid gray wall block sprite in pixel art style. Rectangular border block with medium gray color (#666666) and slight texture/shading to indicate solidity. Size matches the 32x32 pixel grid system. Represents boundary walls that define the game area limits and cause game over when the snake collides with them. Forms the perimeter of the playing field.",
+  "width": 32,
+  "height": 32
+}

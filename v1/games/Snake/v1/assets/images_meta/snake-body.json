@@ -1,0 +1,5 @@
+{
+  "description": "Dark green rectangular snake body segment sprite in pixel art style. Square/rectangular shape with darker green color (#008800) than the head to create visual hierarchy. Smooth edges with slight texture to match the bright green head sprites. Size matches the 32x32 pixel grid system. Represents individual body segments that make up the snake's length as it grows.",
+  "width": 32,
+  "height": 32
+}

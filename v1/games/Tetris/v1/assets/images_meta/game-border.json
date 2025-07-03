@@ -1,0 +1,5 @@
+{
+  "description": "A decorative frame surrounding the main Tetris playing field with bright cyan (#00ffff) color scheme matching the classic arcade aesthetic. Features clean pixel art styling with a solid rectangular border that's 4 pixels thick, creating clear visual separation between the active game area and the UI elements. The border has subtle corner accents and maintains consistent line weight throughout. Designed to contain the 10x20 grid (320x640 pixels) plus padding, totaling approximately 340x660 pixels. Uses bright cyan color to complement the neon-inspired visual theme while providing clear spatial boundaries for the gameplay area. Acts as both a functional game boundary and aesthetic element that reinforces the retro gaming atmosphere.",
+  "width": 340,
+  "height": 660
+}

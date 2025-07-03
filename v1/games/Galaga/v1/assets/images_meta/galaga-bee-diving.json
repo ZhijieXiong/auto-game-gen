@@ -1,0 +1,5 @@
+{
+  "description": "The same yellow and blue Galaga bee enemy but in an aggressive diving attack pose. The body is angled diagonally downward-left or downward-right to show diving motion, with wings swept back dynamically. Eyes appear more focused/aggressive, and the overall posture conveys rapid downward movement toward the player. Maintains the classic yellow/blue color scheme but with more dynamic positioning than the idle formation state.",
+  "width": 24,
+  "height": 24
+}

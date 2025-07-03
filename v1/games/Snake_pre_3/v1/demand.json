@@ -1,0 +1,51 @@
+{
+  "game_name": "Snake Game",
+  "game_description": "A classic arcade game where the player controls a snake that grows longer by eating food while avoiding collisions with walls and its own body.",
+  "core_mechanics": [
+    "Control snake movement in four directions",
+    "Eat food to grow snake length and increase score",
+    "Avoid colliding with walls or snake's own body",
+    "Snake moves continuously at constant speed",
+    "Food spawns randomly on empty grid spaces"
+  ],
+  "controls": [
+    "Arrow keys for directional movement",
+    "WASD keys as alternative controls",
+    "Spacebar to pause/resume game"
+  ],
+  "visual_style": "Pixel art with bright colors on dark background, retro arcade aesthetic",
+  "key_characters": [
+    "Snake (player-controlled, grows segment by segment)",
+    "Food items (apples or dots to be consumed)"
+  ],
+  "ui_elements": [
+    "Score display showing current points",
+    "Game over screen with final score",
+    "Start/restart button",
+    "Pause indicator",
+    "High score display"
+  ],
+  "victory_defeat_conditions": [
+    "Defeat: Snake collides with wall boundaries",
+    "Defeat: Snake collides with its own body",
+    "Continuous play: No traditional victory, aim for high score"
+  ],
+  "visual_assets": [
+    "Snake head sprite - facing up direction, green/bright color, pixel art style, represents the leading segment of the player's snake",
+    "Snake head sprite - facing down direction, green/bright color, pixel art style",
+    "Snake head sprite - facing left direction, green/bright color, pixel art style",
+    "Snake head sprite - facing right direction, green/bright color, pixel art style",
+    "Snake body segment sprite - square/rectangular green block, slightly different shade from head, represents middle segments of snake",
+    "Snake tail sprite - facing up direction, green color with tapered end, represents the last segment",
+    "Snake tail sprite - facing down direction, green color with tapered end",
+    "Snake tail sprite - facing left direction, green color with tapered end",
+    "Snake tail sprite - facing right direction, green color with tapered end",
+    "Food sprite - red apple or bright dot, pixel art style, collectible item that spawns randomly on grid",
+    "Game background - dark solid color or subtle grid pattern, provides contrast for snake and food",
+    "Wall/border sprites - solid colored blocks forming game boundaries",
+    "Score text display - white/bright colored numbers showing current score",
+    "Game over text - large bold letters saying 'GAME OVER'",
+    "Start button - rectangular button with 'START' text",
+    "Pause icon - two vertical bars indicating pause state"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "description": "A semi-transparent dark overlay that appears when the game is paused, featuring the same dark navy blue background (#0f0f23) as the game over screen but with slightly higher opacity (80%) to clearly indicate the paused state. Uses pixel art styling with clean edges and covers the full 800x600 pixel game canvas. The overlay dims the active game field while keeping tetromino positions visible underneath, allowing players to study the board during pause. Serves as a backdrop for pause text and resume instructions, with the dark background ensuring high contrast and readability for overlaid white text. Creates a clear visual distinction between active gameplay and paused state while maintaining the game's cohesive dark color scheme.",
+  "width": 800,
+  "height": 600
+}

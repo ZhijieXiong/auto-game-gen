@@ -1,0 +1,5 @@
+{
+  "description": "A semi-transparent dark overlay covering the entire game screen when the game ends, featuring a dark navy blue background (#0f0f23) with 80% opacity to dim the background game field while keeping it partially visible. The overlay uses pixel art styling with clean edges and serves as a backdrop for game over text and final score display. Covers the full game canvas at 800x600 pixels, creating a modal-like effect that draws attention to the end game state. The semi-transparent nature allows players to still see their final board configuration while clearly indicating the game has ended. Provides visual separation between active gameplay and end state, with darker tones that make overlaid white and red text highly readable.",
+  "width": 800,
+  "height": 600
+}

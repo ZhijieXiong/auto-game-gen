@@ -1,0 +1,62 @@
+{
+  "snake-head-up": {
+    "description": "Snake head sprite facing upward direction. Bright green colored head with pixel art style. Features two small black eyes positioned at the top portion looking upward, rounded head shape with slight curve indicating upward orientation. The mouth/nose area is positioned at the bottom of the sprite. Size matches game grid of 32x32 pixels. Represents the leading segment of the player-controlled snake when moving up. Visual style is retro arcade with clean pixel art aesthetics and bright vibrant green color (#00ff41) that contrasts well against dark backgrounds.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-head-down": {
+    "description": "Snake head sprite facing downward direction. Bright green colored head with pixel art style. Features two small black eyes positioned at the bottom portion looking downward, rounded head shape with slight curve indicating downward orientation. The mouth/nose area is positioned at the top of the sprite. Size matches game grid of 32x32 pixels. Represents the leading segment of the player-controlled snake when moving down. Visual style is retro arcade with clean pixel art aesthetics and bright vibrant green color (#00ff41) that contrasts well against dark backgrounds.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-head-left": {
+    "description": "Snake head sprite facing leftward direction. Bright green colored head with pixel art style. Features two small black eyes positioned on the left side looking leftward, rounded head shape with slight curve indicating leftward orientation. The mouth/nose area is positioned on the right side of the sprite. Size matches game grid of 32x32 pixels. Represents the leading segment of the player-controlled snake when moving left. Visual style is retro arcade with clean pixel art aesthetics and bright vibrant green color (#00ff41) that contrasts well against dark backgrounds.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-head-right": {
+    "description": "Snake head sprite facing rightward direction. Bright green colored head with pixel art style. Features two small black eyes positioned on the right side looking rightward, rounded head shape with slight curve indicating rightward orientation. The mouth/nose area is positioned on the left side of the sprite. Size matches game grid of 32x32 pixels. Represents the leading segment of the player-controlled snake when moving right. Visual style is retro arcade with clean pixel art aesthetics and bright vibrant green color (#00ff41) that contrasts well against dark backgrounds.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-body": {
+    "description": "Snake body segment sprite representing middle sections of the snake. Square-shaped green block with pixel art style, slightly different shade from the head (darker green #00cc33) to provide visual distinction. Solid rectangular shape with clean edges fitting perfectly within 32x32 pixel grid. No directional features as body segments are uniform regardless of movement direction. Used for all middle segments between head and tail. Visual style matches other snake components with retro arcade aesthetics and consistent pixel art rendering.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-tail-up": {
+    "description": "Snake tail segment facing upward direction. Green colored with tapered end pointing upward, representing the last segment of the snake when the tail is moving up. Pixel art style with the wide base at the bottom and gradually narrowing to a point at the top. Color matches snake body segments (#00cc33) but with distinctive tapered shape. Size fits 32x32 pixel grid. Visual orientation clearly shows upward direction through the pointed end positioning and body curve.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-tail-down": {
+    "description": "Snake tail segment facing downward direction. Green colored with tapered end pointing downward, representing the last segment of the snake when the tail is moving down. Pixel art style with the wide base at the top and gradually narrowing to a point at the bottom. Color matches snake body segments (#00cc33) but with distinctive tapered shape. Size fits 32x32 pixel grid. Visual orientation clearly shows downward direction through the pointed end positioning and body curve.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-tail-left": {
+    "description": "Snake tail segment facing leftward direction. Green colored with tapered end pointing leftward, representing the last segment of the snake when the tail is moving left. Pixel art style with the wide base on the right side and gradually narrowing to a point on the left. Color matches snake body segments (#00cc33) but with distinctive tapered shape. Size fits 32x32 pixel grid. Visual orientation clearly shows leftward direction through the pointed end positioning and body curve.",
+    "width": 32,
+    "height": 32
+  },
+  "snake-tail-right": {
+    "description": "Snake tail segment facing rightward direction. Green colored with tapered end pointing rightward, representing the last segment of the snake when the tail is moving right. Pixel art style with the wide base on the left side and gradually narrowing to a point on the right. Color matches snake body segments (#00cc33) but with distinctive tapered shape. Size fits 32x32 pixel grid. Visual orientation clearly shows rightward direction through the pointed end positioning and body curve.",
+    "width": 32,
+    "height": 32
+  },
+  "food": {
+    "description": "Food sprite representing collectible apple item. Bright red colored (#ff0000) circular apple with pixel art style. Features a small green leaf on top and slight shading to give 3D appearance within pixel art constraints. Size fits perfectly within 32x32 pixel grid spacing. Spawns randomly on empty grid spaces for the snake to consume. High contrast against dark background for easy visibility. Retro arcade aesthetic matching the overall game style. Represents the primary collectible that increases snake length and player score.",
+    "width": 32,
+    "height": 32
+  },
+  "background": {
+    "description": "Game background providing the playing field surface. Dark solid color (#000000) with subtle grid pattern overlay to help players visualize movement grid. Covers entire game area of 640x480 pixels. Minimal design that provides strong contrast for bright colored snake and food sprites. The grid lines are very faint dark gray (#111111) to show tile boundaries without being distracting. Retro arcade aesthetic with clean, functional appearance that keeps focus on gameplay elements.",
+    "width": 640,
+    "height": 480
+  },
+  "wall": {
+    "description": "Wall border sprite forming game boundaries. Solid bright colored block (#00ff41) with pixel art style. Square shaped to fit 32x32 pixel grid system. Forms the perimeter walls that cause game over when snake collides. Bright green color matches snake head for visual consistency while being clearly distinct as an obstacle. Clean rectangular shape with sharp edges. Multiple instances arranged to create complete border around playing field. Retro arcade aesthetic with high contrast against dark background.",
+    "width": 32,
+    "height": 32
+  }
+}
