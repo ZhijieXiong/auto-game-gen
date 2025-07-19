@@ -1,0 +1,17 @@
+{
+  "image_name": "game_background",
+  "num_sprites": 1,
+  "num_rows": 1,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "game_background": [
+      0,
+      0,
+      64,
+      64
+    ]
+  },
+  "sprites_description": {
+    "game_background": "Dark grid pattern background, pixel art style, subtle grid lines on black background, tiled across game area"
+  }
+}

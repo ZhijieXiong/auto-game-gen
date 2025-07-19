@@ -1,0 +1,129 @@
+{
+  "snake-sprites": {
+    "image_name": "snake-sprites",
+    "num_sprites": 3,
+    "num_rows": 1,
+    "num_cols": 3,
+    "basic_sprites_info": {
+      "snake_head": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "snake_body": [
+        0,
+        1,
+        32,
+        32
+      ],
+      "snake_tail": [
+        0,
+        2,
+        32,
+        32
+      ]
+    },
+    "sprites_description": {
+      "snake_head": "Snake head sprite facing right direction, bright green rectangular shape with darker green outline, pixel art style with clean geometric edges, top-down view showing the leading segment of the snake, used as the primary controllable element in a classic snake game",
+      "snake_body": "Snake body segment sprite, medium green rectangular shape with darker green border, pixel art style with consistent visual design, top-down view showing a uniform body segment, used for all intermediate segments following the head in the snake chain",
+      "snake_tail": "Snake tail segment sprite, slightly darker green rectangular shape with outline, pixel art style matching the body segments, top-down view showing the final segment of the snake, used as the trailing element of the snake body"
+    }
+  },
+  "food-apple": {
+    "image_name": "food-apple",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "food_apple": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    "sprites_description": {
+      "food_apple": "Red apple food item sprite, circular red shape with darker red shading and small green stem, pixel art style with bright contrasting colors, top-down view showing a classic apple design, spawns randomly on the game grid for the snake to consume and grow"
+    }
+  },
+  "grid-background": {
+    "image_name": "grid-background",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "grid_background": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    "sprites_description": {
+      "grid_background": "Game board background tile with grid lines, dark background with lighter gray grid lines forming a square pattern, pixel art style with clean geometric lines, top-down view showing a repeatable tile pattern, used to create the playing field background in the snake game"
+    }
+  },
+  "ui-elements": {
+    "image_name": "ui-elements",
+    "num_sprites": 5,
+    "num_rows": 2,
+    "num_cols": 3,
+    "basic_sprites_info": {
+      "ui_score_panel": [
+        0,
+        0,
+        200,
+        60
+      ],
+      "ui_button_play": [
+        0,
+        1,
+        120,
+        40
+      ],
+      "ui_button_play_hover": [
+        0,
+        2,
+        120,
+        40
+      ],
+      "ui_button_restart": [
+        1,
+        0,
+        120,
+        40
+      ],
+      "ui_button_pause": [
+        1,
+        1,
+        40,
+        40
+      ]
+    },
+    "sprites_description": {
+      "ui_score_panel": "Score display background panel, dark rectangular UI element with subtle border, pixel art style with clean edges, front-facing view showing a container for score text, used to display current game score and high score information",
+      "ui_button_play": "Start/play button in normal state, bright green rectangular button with rounded corners and 'PLAY' text, pixel art style with clean button design, front-facing view showing an interactive game start element, used to begin gameplay from the main menu",
+      "ui_button_play_hover": "Start/play button in hover state, slightly brighter green rectangular button with enhanced visual feedback, pixel art style with subtle glow effect, front-facing view showing button interaction state, used to provide visual feedback when hovering over the play button",
+      "ui_button_restart": "Restart button for game over screen, blue rectangular button with 'RESTART' text, pixel art style with contrasting colors, front-facing view showing a game reset control, used to restart the game after game over condition",
+      "ui_button_pause": "Pause button icon, small square button with pause symbol (two vertical bars), pixel art style with simple geometric design, front-facing view showing a game control element, used to pause and unpause gameplay during active game sessions"
+    }
+  },
+  "game-over-overlay": {
+    "image_name": "game-over-overlay",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "game_over_overlay": [
+        0,
+        0,
+        400,
+        300
+      ]
+    },
+    "sprites_description": {
+      "game_over_overlay": "Semi-transparent overlay background for game over screen, dark rectangular panel with subtle transparency and border, pixel art style with clean geometric edges, front-facing view showing a modal dialog background, used to display game over information and restart options over the game field"
+    }
+  }
+}

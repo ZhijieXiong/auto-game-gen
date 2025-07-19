@@ -1,0 +1,192 @@
+{
+  "snake_sprites": {
+    "image_name": "snake_sprites",
+    "num_sprites": 3,
+    "num_rows": 1,
+    "num_cols": 3,
+    "basic_sprites_info": {
+      "snake_head": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "snake_body": [
+        0,
+        1,
+        32,
+        32
+      ],
+      "snake_tail": [
+        0,
+        2,
+        32,
+        32
+      ]
+    },
+    "sprites_description": {
+      "snake_head": "Green snake head sprite facing right, pixel art style, square shape with eyes, used as leading segment",
+      "snake_body": "Green snake body segment, pixel art style, square shape with scales pattern, used for middle segments",
+      "snake_tail": "Green snake tail segment, pixel art style, square shape with tapered end, used as final segment"
+    }
+  },
+  "food_apple": {
+    "image_name": "food_apple",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "food_apple": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    "sprites_description": {
+      "food_apple": "Red apple sprite, pixel art style, round shape with green stem, collectible food item that spawns randomly"
+    }
+  },
+  "game_background": {
+    "image_name": "game_background",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "game_background": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    "sprites_description": {
+      "game_background": "Dark grid pattern background, pixel art style, subtle grid lines on black background, tiled across game area"
+    }
+  },
+  "ui_buttons": {
+    "image_name": "ui_buttons",
+    "num_sprites": 5,
+    "num_rows": 3,
+    "num_cols": 2,
+    "basic_sprites_info": {
+      "ui_button_play": [
+        0,
+        0,
+        128,
+        48
+      ],
+      "ui_button_play_hover": [
+        0,
+        1,
+        128,
+        48
+      ],
+      "ui_button_restart": [
+        1,
+        0,
+        128,
+        48
+      ],
+      "ui_button_restart_hover": [
+        1,
+        1,
+        128,
+        48
+      ],
+      "ui_button_pause": [
+        2,
+        0,
+        32,
+        32
+      ]
+    },
+    "sprites_description": {
+      "ui_button_play": "Green play button, pixel art style, rectangular shape with PLAY text, normal state for start screen",
+      "ui_button_play_hover": "Green play button hover state, pixel art style, slightly brighter green, mouse over interaction",
+      "ui_button_restart": "Blue restart button, pixel art style, rectangular shape with RESTART text, normal state for game over",
+      "ui_button_restart_hover": "Blue restart button hover state, pixel art style, slightly brighter blue, mouse interaction feedback",
+      "ui_button_pause": "Yellow pause button icon, pixel art style, square shape with pause symbol, displayed during gameplay"
+    }
+  },
+  "score_numbers": {
+    "image_name": "score_numbers",
+    "num_sprites": 10,
+    "num_rows": 2,
+    "num_cols": 5,
+    "basic_sprites_info": {
+      "score_0": [
+        0,
+        0,
+        16,
+        24
+      ],
+      "score_1": [
+        0,
+        1,
+        16,
+        24
+      ],
+      "score_2": [
+        0,
+        2,
+        16,
+        24
+      ],
+      "score_3": [
+        0,
+        3,
+        16,
+        24
+      ],
+      "score_4": [
+        0,
+        4,
+        16,
+        24
+      ],
+      "score_5": [
+        1,
+        0,
+        16,
+        24
+      ],
+      "score_6": [
+        1,
+        1,
+        16,
+        24
+      ],
+      "score_7": [
+        1,
+        2,
+        16,
+        24
+      ],
+      "score_8": [
+        1,
+        3,
+        16,
+        24
+      ],
+      "score_9": [
+        1,
+        4,
+        16,
+        24
+      ]
+    },
+    "sprites_description": {
+      "score_0": "White pixel font number 0, pixel art style, clean geometric shape, used for score display",
+      "score_1": "White pixel font number 1, pixel art style, clean geometric shape, used for score display",
+      "score_2": "White pixel font number 2, pixel art style, clean geometric shape, used for score display",
+      "score_3": "White pixel font number 3, pixel art style, clean geometric shape, used for score display",
+      "score_4": "White pixel font number 4, pixel art style, clean geometric shape, used for score display",
+      "score_5": "White pixel font number 5, pixel art style, clean geometric shape, used for score display",
+      "score_6": "White pixel font number 6, pixel art style, clean geometric shape, used for score display",
+      "score_7": "White pixel font number 7, pixel art style, clean geometric shape, used for score display",
+      "score_8": "White pixel font number 8, pixel art style, clean geometric shape, used for score display",
+      "score_9": "White pixel font number 9, pixel art style, clean geometric shape, used for score display"
+    }
+  }
+}

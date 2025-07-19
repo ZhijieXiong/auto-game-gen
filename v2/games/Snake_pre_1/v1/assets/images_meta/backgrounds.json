@@ -1,0 +1,17 @@
+{
+  "image_name": "backgrounds",
+  "num_sprites": 1,
+  "num_rows": 1,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "grid_background": [
+      0,
+      0,
+      1024,
+      1024
+    ]
+  },
+  "sprites_description": {
+    "grid_background": "grid_background, Dark navy blue background tile with subtle grid lines in lighter blue, pixel art style, seamless repeatable pattern, square cell structure with thin border lines, used as the game area background providing visual grid structure for snake movement"
+  }
+}

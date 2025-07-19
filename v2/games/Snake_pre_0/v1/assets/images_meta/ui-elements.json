@@ -1,0 +1,45 @@
+{
+  "image_name": "ui-elements",
+  "num_sprites": 5,
+  "num_rows": 2,
+  "num_cols": 3,
+  "basic_sprites_info": {
+    "ui_score_panel": [
+      0,
+      0,
+      200,
+      60
+    ],
+    "ui_button_play": [
+      0,
+      1,
+      120,
+      40
+    ],
+    "ui_button_play_hover": [
+      0,
+      2,
+      120,
+      40
+    ],
+    "ui_button_restart": [
+      1,
+      0,
+      120,
+      40
+    ],
+    "ui_button_pause": [
+      1,
+      1,
+      40,
+      40
+    ]
+  },
+  "sprites_description": {
+    "ui_score_panel": "Score display background panel, dark rectangular UI element with subtle border, pixel art style with clean edges, front-facing view showing a container for score text, used to display current game score and high score information",
+    "ui_button_play": "Start/play button in normal state, bright green rectangular button with rounded corners and 'PLAY' text, pixel art style with clean button design, front-facing view showing an interactive game start element, used to begin gameplay from the main menu",
+    "ui_button_play_hover": "Start/play button in hover state, slightly brighter green rectangular button with enhanced visual feedback, pixel art style with subtle glow effect, front-facing view showing button interaction state, used to provide visual feedback when hovering over the play button",
+    "ui_button_restart": "Restart button for game over screen, blue rectangular button with 'RESTART' text, pixel art style with contrasting colors, front-facing view showing a game reset control, used to restart the game after game over condition",
+    "ui_button_pause": "Pause button icon, small square button with pause symbol (two vertical bars), pixel art style with simple geometric design, front-facing view showing a game control element, used to pause and unpause gameplay during active game sessions"
+  }
+}

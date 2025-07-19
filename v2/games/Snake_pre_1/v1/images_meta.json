@@ -1,0 +1,122 @@
+{
+  "snake_parts": {
+    "image_name": "snake_parts",
+    "num_sprites": 3,
+    "num_rows": 1,
+    "num_cols": 3,
+    "basic_sprites_info": {
+      "snake_head": [
+        0,
+        0,
+        340,
+        340
+      ],
+      "snake_body": [
+        0,
+        1,
+        340,
+        340
+      ],
+      "snake_tail": [
+        0,
+        2,
+        340,
+        340
+      ]
+    },
+    "sprites_description": {
+      "snake_head": "snake_head, Bright green snake head sprite with rounded rectangular shape, pixel art style, top-down view, idle state with simple black dot eyes, used as the leading segment of the player-controlled snake in classic snake game",
+      "snake_body": "snake_body, Medium green snake body segment with rounded rectangular shape, pixel art style, top-down view, seamless connecting piece, used for middle segments of the growing snake body in classic snake game",
+      "snake_tail": "snake_tail, Dark green snake tail segment with tapered end, pixel art style, top-down view, terminal piece with rounded tip, used as the final segment of the snake body in classic snake game"
+    }
+  },
+  "food_items": {
+    "image_name": "food_items",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "food_apple": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    },
+    "sprites_description": {
+      "food_apple": "food_apple, Bright red apple with green stem and leaf, pixel art style, top-down view, round fruit shape with highlight and shadow details, used as collectible food item that spawns randomly on the game grid for snake to eat"
+    }
+  },
+  "backgrounds": {
+    "image_name": "backgrounds",
+    "num_sprites": 1,
+    "num_rows": 1,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "grid_background": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    },
+    "sprites_description": {
+      "grid_background": "grid_background, Dark navy blue background tile with subtle grid lines in lighter blue, pixel art style, seamless repeatable pattern, square cell structure with thin border lines, used as the game area background providing visual grid structure for snake movement"
+    }
+  },
+  "ui_elements": {
+    "image_name": "ui_elements",
+    "num_sprites": 2,
+    "num_rows": 2,
+    "num_cols": 1,
+    "basic_sprites_info": {
+      "ui_panel": [
+        0,
+        0,
+        1024,
+        512
+      ],
+      "game_over_panel": [
+        1,
+        0,
+        1024,
+        512
+      ]
+    },
+    "sprites_description": {
+      "ui_panel": "ui_panel, Semi-transparent dark rectangular panel with rounded corners and subtle border, pixel art style, used as background for score display and UI overlay elements in the game interface",
+      "game_over_panel": "game_over_panel, Large semi-transparent black panel with decorative border and corner ornaments, pixel art style, used as overlay background for game over screen with restart and menu options"
+    }
+  },
+  "ui_buttons": {
+    "image_name": "ui_buttons",
+    "num_sprites": 3,
+    "num_rows": 1,
+    "num_cols": 3,
+    "basic_sprites_info": {
+      "button_play": [
+        0,
+        0,
+        340,
+        340
+      ],
+      "button_restart": [
+        0,
+        1,
+        340,
+        340
+      ],
+      "button_pause": [
+        0,
+        2,
+        340,
+        340
+      ]
+    },
+    "sprites_description": {
+      "button_play": "button_play, Bright green rectangular button with rounded corners and white triangle play icon in center, pixel art style, normal state with subtle gradient, used as start game button on main menu screen",
+      "button_restart": "button_restart, Orange rectangular button with rounded corners and circular arrow restart icon, pixel art style, normal state with subtle gradient, used as restart game button on game over screen",
+      "button_pause": "button_pause, Small square button with two vertical white bars pause symbol on dark background, pixel art style, compact design for corner placement, used to pause and resume game during gameplay"
+    }
+  }
+}

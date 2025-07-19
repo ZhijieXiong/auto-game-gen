@@ -1,0 +1,17 @@
+{
+  "image_name": "grid-background",
+  "num_sprites": 1,
+  "num_rows": 1,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "grid_background": [
+      0,
+      0,
+      32,
+      32
+    ]
+  },
+  "sprites_description": {
+    "grid_background": "Game board background tile with grid lines, dark background with lighter gray grid lines forming a square pattern, pixel art style with clean geometric lines, top-down view showing a repeatable tile pattern, used to create the playing field background in the snake game"
+  }
+}

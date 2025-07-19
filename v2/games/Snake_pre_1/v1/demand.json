@@ -1,0 +1,50 @@
+{
+  "game_name": "Classic Snake",
+  "game_description": "A classic snake game where the player controls a growing snake to eat food while avoiding collisions with walls and its own body.",
+  "core_mechanics": [
+    "Control snake movement in four directions",
+    "Eat food to grow longer and increase score",
+    "Avoid colliding with walls or snake's own body",
+    "Snake moves continuously at constant speed",
+    "Food spawns randomly on empty grid spaces"
+  ],
+  "controls": [
+    "Arrow keys for directional movement",
+    "WASD keys as alternative movement controls",
+    "Touch swipe gestures for mobile devices",
+    "Spacebar to pause/resume game"
+  ],
+  "visual_style": "Pixel art with bright, contrasting colors on a dark grid background",
+  "key_characters": [
+    "Snake (player-controlled, grows longer when eating food)",
+    "Food items (static collectible objects that spawn randomly)"
+  ],
+  "ui_elements": [
+    "Score display showing current points",
+    "High score tracker",
+    "Game over screen with restart button",
+    "Pause menu overlay",
+    "Start screen with play button",
+    "Grid background with visible cell borders"
+  ],
+  "victory_defeat_conditions": [
+    "Defeat: Snake collides with wall boundaries",
+    "Defeat: Snake collides with its own body",
+    "Victory: Achieve new high score",
+    "Progression: Score increases by 10 points per food eaten"
+  ],
+  "visual_assets": [
+    "snake_head.png - Snake head sprite facing right direction, 32x32 pixels, used for the front segment of the snake",
+    "snake_body.png - Snake body segment sprite, 32x32 pixels, used for middle segments of the snake",
+    "snake_tail.png - Snake tail sprite, 32x32 pixels, used for the end segment of the snake",
+    "food_apple.png - Red apple food item, 32x32 pixels, spawns randomly on grid for snake to collect",
+    "grid_background.png - Dark background with grid lines, repeatable tile pattern, provides game area visual structure",
+    "ui_score_panel.png - Score display background panel, rectangular shape for UI overlay",
+    "button_play.png - Green play button for start screen, normal state with rounded corners",
+    "button_play_hover.png - Play button hover state with slight glow effect",
+    "button_restart.png - Orange restart button for game over screen, normal state",
+    "button_restart_hover.png - Restart button hover state with highlighting",
+    "button_pause.png - Pause button icon, small square button for top corner of game area",
+    "game_over_panel.png - Semi-transparent overlay panel for game over screen with border decoration"
+  ]
+}

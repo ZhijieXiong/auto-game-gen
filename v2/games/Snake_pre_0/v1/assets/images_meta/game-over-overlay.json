@@ -1,0 +1,17 @@
+{
+  "image_name": "game-over-overlay",
+  "num_sprites": 1,
+  "num_rows": 1,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "game_over_overlay": [
+      0,
+      0,
+      400,
+      300
+    ]
+  },
+  "sprites_description": {
+    "game_over_overlay": "Semi-transparent overlay background for game over screen, dark rectangular panel with subtle transparency and border, pixel art style with clean geometric edges, front-facing view showing a modal dialog background, used to display game over information and restart options over the game field"
+  }
+}

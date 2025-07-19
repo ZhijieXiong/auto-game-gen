@@ -1,0 +1,48 @@
+{
+  "game_name": "Classic Snake",
+  "game_description": "A classic snake game where the player controls a growing snake to eat food while avoiding walls and its own tail. The snake grows longer with each food consumed, making navigation increasingly challenging.",
+  "core_mechanics": [
+    "Control snake movement in four directions",
+    "Eat food to grow snake length and increase score",
+    "Avoid colliding with walls or snake's own body",
+    "Snake moves continuously at fixed intervals",
+    "Food spawns randomly on the game grid"
+  ],
+  "controls": [
+    "Arrow keys for directional movement (up, down, left, right)",
+    "WASD keys as alternative movement controls",
+    "Touch swipe gestures for mobile devices",
+    "Spacebar to pause/unpause game"
+  ],
+  "visual_style": "Pixel art with clean, geometric shapes and bright colors on dark background",
+  "key_characters": [
+    "Snake (player-controlled, composed of connected segments)",
+    "Food items (collectible objects that spawn randomly)"
+  ],
+  "ui_elements": [
+    "Score display showing current points",
+    "High score display",
+    "Game over screen with restart button",
+    "Pause menu with resume and restart options",
+    "Start screen with play button and instructions"
+  ],
+  "victory_defeat_conditions": [
+    "Defeat: Snake collides with wall boundaries",
+    "Defeat: Snake collides with its own body segments",
+    "Continuous gameplay: No traditional victory condition, aim for high score",
+    "Score increases by 10 points per food item consumed"
+  ],
+  "visual_assets": [
+    "snake_head.png - Snake head sprite facing right direction, 32x32 pixels, used as the leading segment of the snake",
+    "snake_body.png - Snake body segment sprite, 32x32 pixels, used for middle segments of the snake",
+    "snake_tail.png - Snake tail segment sprite, 32x32 pixels, used as the final segment of the snake",
+    "food_apple.png - Red apple food item sprite, 32x32 pixels, spawns randomly on grid for snake to consume",
+    "game_background.png - Dark grid background pattern, tiled across game area",
+    "ui_button_play.png - Green play button for start screen, 128x48 pixels, with normal state",
+    "ui_button_play_hover.png - Green play button hover state, 128x48 pixels, slightly brighter when mouse over",
+    "ui_button_restart.png - Blue restart button for game over screen, 128x48 pixels, normal state",
+    "ui_button_restart_hover.png - Blue restart button hover state, 128x48 pixels, for mouse interaction",
+    "ui_button_pause.png - Yellow pause button icon, 32x32 pixels, displayed during gameplay",
+    "score_font_numbers.png - White pixel font number sprites 0-9, each 16x24 pixels, for displaying score and high score"
+  ]
+}

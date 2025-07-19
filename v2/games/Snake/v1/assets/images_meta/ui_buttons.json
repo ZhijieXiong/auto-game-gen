@@ -1,0 +1,45 @@
+{
+  "image_name": "ui_buttons",
+  "num_sprites": 5,
+  "num_rows": 3,
+  "num_cols": 2,
+  "basic_sprites_info": {
+    "ui_button_play": [
+      0,
+      0,
+      128,
+      48
+    ],
+    "ui_button_play_hover": [
+      0,
+      1,
+      128,
+      48
+    ],
+    "ui_button_restart": [
+      1,
+      0,
+      128,
+      48
+    ],
+    "ui_button_restart_hover": [
+      1,
+      1,
+      128,
+      48
+    ],
+    "ui_button_pause": [
+      2,
+      0,
+      32,
+      32
+    ]
+  },
+  "sprites_description": {
+    "ui_button_play": "Green play button, pixel art style, rectangular shape with PLAY text, normal state for start screen",
+    "ui_button_play_hover": "Green play button hover state, pixel art style, slightly brighter green, mouse over interaction",
+    "ui_button_restart": "Blue restart button, pixel art style, rectangular shape with RESTART text, normal state for game over",
+    "ui_button_restart_hover": "Blue restart button hover state, pixel art style, slightly brighter blue, mouse interaction feedback",
+    "ui_button_pause": "Yellow pause button icon, pixel art style, square shape with pause symbol, displayed during gameplay"
+  }
+}

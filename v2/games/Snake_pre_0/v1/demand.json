@@ -1,0 +1,49 @@
+{
+  "game_name": "Classic Snake",
+  "game_description": "A classic snake game where the player controls a snake to eat food and grow longer while avoiding walls and the snake's own body.",
+  "core_mechanics": [
+    "Control snake movement in four directions",
+    "Eat food to grow snake length and increase score",
+    "Avoid colliding with walls or snake's own body",
+    "Snake moves continuously at constant speed",
+    "Food spawns randomly on empty grid positions"
+  ],
+  "controls": [
+    "Arrow keys for directional movement",
+    "WASD keys as alternative movement controls",
+    "Touch swipe gestures for mobile devices",
+    "Spacebar to pause/unpause game"
+  ],
+  "visual_style": "Pixel art with clean geometric shapes and bright contrasting colors",
+  "key_characters": [
+    "Snake (composed of head and body segments)",
+    "Food items (apples or dots)"
+  ],
+  "ui_elements": [
+    "Score display showing current points",
+    "High score tracker",
+    "Game over screen with restart button",
+    "Pause menu overlay",
+    "Start screen with play button",
+    "Grid background"
+  ],
+  "victory_defeat_conditions": [
+    "Defeat: Snake collides with wall boundaries",
+    "Defeat: Snake collides with its own body",
+    "Victory: Achieve high score milestone",
+    "Continuous gameplay with increasing difficulty"
+  ],
+  "visual_assets": [
+    "snake_head.png - Snake head sprite facing right direction, 32x32 pixels, pixel art style, used for the leading segment of the snake",
+    "snake_body.png - Snake body segment sprite, 32x32 pixels, pixel art style, used for all body segments following the head",
+    "snake_tail.png - Snake tail segment sprite, 32x32 pixels, pixel art style, used for the final segment of the snake",
+    "food_apple.png - Red apple food item, 32x32 pixels, pixel art style, spawns randomly on grid for snake to consume",
+    "grid_background.png - Game board background with grid lines, repeatable tile pattern, dark background with lighter grid lines",
+    "ui_score_panel.png - Score display background panel, rectangular UI element for showing current score",
+    "ui_button_play.png - Start/play button in normal state, green rectangular button with play text",
+    "ui_button_play_hover.png - Start/play button in hover state, slightly brighter green with visual feedback",
+    "ui_button_restart.png - Restart button for game over screen, blue rectangular button",
+    "ui_button_pause.png - Pause button icon, small square button for pausing gameplay",
+    "game_over_overlay.png - Semi-transparent overlay background for game over screen"
+  ]
+}

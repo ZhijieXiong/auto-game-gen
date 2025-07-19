@@ -1,0 +1,24 @@
+{
+  "image_name": "ui_elements",
+  "num_sprites": 2,
+  "num_rows": 2,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "ui_panel": [
+      0,
+      0,
+      1024,
+      512
+    ],
+    "game_over_panel": [
+      1,
+      0,
+      1024,
+      512
+    ]
+  },
+  "sprites_description": {
+    "ui_panel": "ui_panel, Semi-transparent dark rectangular panel with rounded corners and subtle border, pixel art style, used as background for score display and UI overlay elements in the game interface",
+    "game_over_panel": "game_over_panel, Large semi-transparent black panel with decorative border and corner ornaments, pixel art style, used as overlay background for game over screen with restart and menu options"
+  }
+}

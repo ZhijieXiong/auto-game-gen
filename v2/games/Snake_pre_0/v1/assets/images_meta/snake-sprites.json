@@ -1,0 +1,31 @@
+{
+  "image_name": "snake-sprites",
+  "num_sprites": 3,
+  "num_rows": 1,
+  "num_cols": 3,
+  "basic_sprites_info": {
+    "snake_head": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "snake_body": [
+      0,
+      1,
+      32,
+      32
+    ],
+    "snake_tail": [
+      0,
+      2,
+      32,
+      32
+    ]
+  },
+  "sprites_description": {
+    "snake_head": "Snake head sprite facing right direction, bright green rectangular shape with darker green outline, pixel art style with clean geometric edges, top-down view showing the leading segment of the snake, used as the primary controllable element in a classic snake game",
+    "snake_body": "Snake body segment sprite, medium green rectangular shape with darker green border, pixel art style with consistent visual design, top-down view showing a uniform body segment, used for all intermediate segments following the head in the snake chain",
+    "snake_tail": "Snake tail segment sprite, slightly darker green rectangular shape with outline, pixel art style matching the body segments, top-down view showing the final segment of the snake, used as the trailing element of the snake body"
+  }
+}

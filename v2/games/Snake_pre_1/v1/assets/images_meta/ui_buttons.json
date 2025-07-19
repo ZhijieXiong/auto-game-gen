@@ -1,0 +1,31 @@
+{
+  "image_name": "ui_buttons",
+  "num_sprites": 3,
+  "num_rows": 1,
+  "num_cols": 3,
+  "basic_sprites_info": {
+    "button_play": [
+      0,
+      0,
+      340,
+      340
+    ],
+    "button_restart": [
+      0,
+      1,
+      340,
+      340
+    ],
+    "button_pause": [
+      0,
+      2,
+      340,
+      340
+    ]
+  },
+  "sprites_description": {
+    "button_play": "button_play, Bright green rectangular button with rounded corners and white triangle play icon in center, pixel art style, normal state with subtle gradient, used as start game button on main menu screen",
+    "button_restart": "button_restart, Orange rectangular button with rounded corners and circular arrow restart icon, pixel art style, normal state with subtle gradient, used as restart game button on game over screen",
+    "button_pause": "button_pause, Small square button with two vertical white bars pause symbol on dark background, pixel art style, compact design for corner placement, used to pause and resume game during gameplay"
+  }
+}

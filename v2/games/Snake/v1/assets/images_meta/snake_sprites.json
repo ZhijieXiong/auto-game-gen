@@ -1,0 +1,31 @@
+{
+  "image_name": "snake_sprites",
+  "num_sprites": 3,
+  "num_rows": 1,
+  "num_cols": 3,
+  "basic_sprites_info": {
+    "snake_head": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "snake_body": [
+      0,
+      1,
+      32,
+      32
+    ],
+    "snake_tail": [
+      0,
+      2,
+      32,
+      32
+    ]
+  },
+  "sprites_description": {
+    "snake_head": "Green snake head sprite facing right, pixel art style, square shape with eyes, used as leading segment",
+    "snake_body": "Green snake body segment, pixel art style, square shape with scales pattern, used for middle segments",
+    "snake_tail": "Green snake tail segment, pixel art style, square shape with tapered end, used as final segment"
+  }
+}

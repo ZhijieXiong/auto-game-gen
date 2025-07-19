@@ -1,0 +1,17 @@
+{
+  "image_name": "food_apple",
+  "num_sprites": 1,
+  "num_rows": 1,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "food_apple": [
+      0,
+      0,
+      32,
+      32
+    ]
+  },
+  "sprites_description": {
+    "food_apple": "Red apple sprite, pixel art style, round shape with green stem, collectible food item that spawns randomly"
+  }
+}

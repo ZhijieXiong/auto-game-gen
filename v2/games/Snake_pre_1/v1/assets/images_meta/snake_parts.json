@@ -1,0 +1,31 @@
+{
+  "image_name": "snake_parts",
+  "num_sprites": 3,
+  "num_rows": 1,
+  "num_cols": 3,
+  "basic_sprites_info": {
+    "snake_head": [
+      0,
+      0,
+      340,
+      340
+    ],
+    "snake_body": [
+      0,
+      1,
+      340,
+      340
+    ],
+    "snake_tail": [
+      0,
+      2,
+      340,
+      340
+    ]
+  },
+  "sprites_description": {
+    "snake_head": "snake_head, Bright green snake head sprite with rounded rectangular shape, pixel art style, top-down view, idle state with simple black dot eyes, used as the leading segment of the player-controlled snake in classic snake game",
+    "snake_body": "snake_body, Medium green snake body segment with rounded rectangular shape, pixel art style, top-down view, seamless connecting piece, used for middle segments of the growing snake body in classic snake game",
+    "snake_tail": "snake_tail, Dark green snake tail segment with tapered end, pixel art style, top-down view, terminal piece with rounded tip, used as the final segment of the snake body in classic snake game"
+  }
+}

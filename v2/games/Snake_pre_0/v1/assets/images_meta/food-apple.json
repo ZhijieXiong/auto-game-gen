@@ -1,0 +1,17 @@
+{
+  "image_name": "food-apple",
+  "num_sprites": 1,
+  "num_rows": 1,
+  "num_cols": 1,
+  "basic_sprites_info": {
+    "food_apple": [
+      0,
+      0,
+      32,
+      32
+    ]
+  },
+  "sprites_description": {
+    "food_apple": "Red apple food item sprite, circular red shape with darker red shading and small green stem, pixel art style with bright contrasting colors, top-down view showing a classic apple design, spawns randomly on the game grid for the snake to consume and grow"
+  }
+}
